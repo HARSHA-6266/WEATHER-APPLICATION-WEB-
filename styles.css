@@ -1,0 +1,84 @@
+/* General form styling */
+#survey_form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #a5d5eb;
+    padding: 20px;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Heading styles */
+#heading {
+    background-color: #b3e0f2;
+    padding: 20px;
+    margin: 5px 0;
+}
+
+#heading h1 {
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#heading p {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Subheading styles */
+#subheading {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Form element styles */
+label {
+    display: block;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input, select, textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Additional container styles */
+div {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
